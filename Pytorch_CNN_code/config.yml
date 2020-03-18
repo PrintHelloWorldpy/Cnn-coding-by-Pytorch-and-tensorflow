@@ -1,0 +1,17 @@
+info:
+    author: zhushenghua
+    describe: CNN Models Image Classification Demo
+
+device: cpu
+data_info: CIFAR10
+classes_path: './classes.txt'
+model_name: LeNet
+epoch_num: 10
+batch_size: 128
+resize_size: 224,224
+mix_up: False
+momentum: 0.9
+alpha: 0.001
+weight_decay: 0.0001
+
+save_path: './'

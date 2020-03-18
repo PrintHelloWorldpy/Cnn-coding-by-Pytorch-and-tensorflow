@@ -1,0 +1,8 @@
+为本人用Pytorch手动搭建的CNN模型，并对网络结构做了优化
+Pytorch_train.py 为模型测试，直接运行，数据集为CIFAR10数据
+通过config 文件可以修改参数
+Pytorch_nets.py 为手动搭建的网络，包括LeNet, AlexNet, VGG系列，ResNet系列
+Data_Augment_New.py 为自定义的数据增强方法
+CV_tricks.py 为自定义的CV tricks
+
+还会继续更新
